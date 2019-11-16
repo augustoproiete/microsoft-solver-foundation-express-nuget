@@ -5,6 +5,7 @@
     <version>3.0.3</version>
     <authors>Microsoft</authors>
     <owners>caioproiete</owners>
+    <releaseNotes>https://github.com/caioproiete/microsoft-solver-foundation-express-nuget/releases/tag/v$version$</releaseNotes>
     <licenseUrl>https://github.com/caioproiete/microsoft-solver-foundation-express-nuget/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectUrl>https://github.com/caioproiete/microsoft-solver-foundation-express-nuget</projectUrl>
