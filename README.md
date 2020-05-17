@@ -45,6 +45,10 @@ The following table lists the model size limits for each type of programming in 
 | Constraint programming          | 5,000 total terms                                       |
 | Non-linear programming          | Unlimited                                               |
 
+## Release History
+
+Click on the [Releases](https://github.com/augustoproiete/microsoft-solver-foundation-express-nuget/releases) tab on GitHub.
+
 ## License
 
 Licensed under the Microsoft Public License (Ms-PL) (the "License");
