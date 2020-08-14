@@ -1,8 +1,22 @@
-# Microsoft Solver Foundation Express - NuGet package
+| README.md |
+|:---|
 
-> Unofficial NuGet package to simplify the development and deployment of .NET applications that use the [Microsoft Solver Foundation Express](https://msdn.microsoft.com/en-us/devlabs/hh145003)  3.0.2.10889 (v3.1).
+<div align="center">
 
-## Getting started
+<img src="assets/microsoft-solver-foundation-nuget.png" alt="Microsoft Solver Foundation Express - NuGet package" width="100" />
+
+</div>
+
+<h1 align="center">Microsoft Solver Foundation Express - NuGet package</h1>
+<div align="center">
+
+Unofficial NuGet package to simplify the development and deployment of .NET applications that use the [Microsoft Solver Foundation Express](https://msdn.microsoft.com/en-us/devlabs/hh145003)  3.0.2.10889 (v3.1).
+
+[![NuGet Version](http://img.shields.io/nuget/v/Unofficial.Microsoft.Solver.Foundation.Express.svg?style=flat-square)](https://www.nuget.org/packages/Unofficial.Microsoft.Solver.Foundation.Express/) [![Stack Overflow](https://img.shields.io/badge/stack%20overflow-ms--solver--foundation-orange.svg)](http://stackoverflow.com/questions/tagged/ms-solver-foundation)
+
+</div>
+
+## Getting started :rocket:
 
 To use the Microsoft Solver Foundation Express in your .NET application, install the [NuGet package](https://www.nuget.org/packages/Unofficial.Microsoft.Solver.Foundation.Express):
 
