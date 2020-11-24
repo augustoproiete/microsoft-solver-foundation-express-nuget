@@ -1,6 +1,10 @@
-#Ignore thumbnails created by Windows
+#windows
 Thumbs.db
 
-#Ignore metadata created by OSX
+#osx
 .DS_Store
 ._*
+
+#cake
+/build/*
+/tools/*

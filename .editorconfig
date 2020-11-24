@@ -10,8 +10,8 @@ insert_final_newline = true
 indent_style = space
 indent_size = 4
 
-[*.{xml,dna,config,nuspec,csproj,vcxproj,vcproj,props,targets,ps1,resx}]
+[*.{xml,config,nuspec,csproj,vcxproj,vcproj,props,targets,ps1,resx}]
 indent_size = 2
 
-[*.{dotsettings}]
+[*.{sh}]
 end_of_line = lf
