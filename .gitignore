@@ -6,5 +6,6 @@ Thumbs.db
 ._*
 
 #cake
+.cake/
 /build/*
 /tools/*
