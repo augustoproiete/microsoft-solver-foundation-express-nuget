@@ -65,7 +65,7 @@ Click on the [Releases](https://github.com/augustoproiete/microsoft-solver-found
 
 ## License
 
-_Copyright &copy; 2018-2020 C. Augusto Proiete & Contributors - Provided under the [Microsoft Public License (Ms-PL)](LICENSE)._
+_Copyright &copy; 2018-2021 C. Augusto Proiete & Contributors - Provided under the [Microsoft Public License (Ms-PL)](LICENSE)._
 
 ---
 
