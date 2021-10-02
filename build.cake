@@ -9,7 +9,7 @@ var buildVersion = MinVer(s => s.WithTagPrefix("v").WithDefaultPreReleasePhase("
 Task("clean")
     .Does(() =>
 {
-    CleanDirectory("./build/artifacts");
+    CleanDirectories("./artifact/**");
 });
 
 Task("pack")
@@ -19,11 +19,11 @@ Task("pack")
     NuGetPack("./src/nuspec/Unofficial.Microsoft.Solver.Foundation.Express.nuspec", new NuGetPackSettings
     {
         Version = buildVersion.PackageVersion,
-        OutputDirectory = "./build/artifacts",
+        OutputDirectory = "./artifact/nuget",
     });
 });
 
-Task("publish")
+Task("push")
     .IsDependentOn("pack")
     .Does(context =>
 {
@@ -47,7 +47,7 @@ Task("publish")
         ApiKey = apiKey,
     };
 
-    foreach (var nugetPackageFile in GetFiles("./build/artifacts/*.nupkg"))
+    foreach (var nugetPackageFile in GetFiles("./artifact/nuget/*.nupkg"))
     {
         DotNetCoreNuGetPush(nugetPackageFile.FullPath, nugetPushSettings);
     }
